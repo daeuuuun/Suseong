@@ -1,0 +1,39 @@
+header {
+    height: 70px;
+    padding: 0 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.logo h1 {
+    font-size: 0;
+}
+
+.manu_bar {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.manu_bar li {
+    padding: 0 18px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #010101;
+}
+
+.manu_bar li:nth-child(6) {
+    border-radius: 20px;
+    border: 1px solid #bdbdbd;
+    padding: 7px 15px;
+    font-size: 15px;
+    color: #404040;
+}
+
+.manu_bar li:nth-child(7) {
+    width: 36px;
+    height: 20px;
+}

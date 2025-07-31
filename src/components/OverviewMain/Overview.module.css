@@ -1,0 +1,86 @@
+.overview_container {
+    background-image: url(../../assets/img/darkbackground.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_container {  
+    padding: 0 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content_container .content_box {
+    width: 260px;
+    height: 230px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color:rgba(255, 255, 255, 0.5);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.content_container .content_null_box {
+    width: 260px;
+    height: 230px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin: 10px;
+    color: #fff;
+}
+
+.content_container .content_box .top_text {
+    font-family: 'GmarketSansBold';
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+.content_container .content_box .middle_text {
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 90px;
+    font-weight: 900;
+}
+
+.content_container .content_box .middle_text > span {
+    font-family: 'GmarketSansLight';
+    font-size: 30px;
+}
+
+.content_container .content_box .bottom_text {
+    font-family: 'GmarketSansLight';
+    font-size: 17px;
+}
+
+.content_container .content_box .sub_text {
+    font-family: 'GmarketSansMedium';
+    font-size: 17px;
+}
+
+.content_container .content_box .second_text {
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.content_container .content_box .second_text > span {
+    font-family: 'GmarketSansLight';
+    font-size: 30px;
+}
+
+.content_container .content_null_box .overview_text {
+    font-family: 'GmarketSansLight';
+    font-size: 50px;
+    margin-left: -20px;
+    margin-top: 60px;
+}
+
+.content_container .content_null_box .overview_text > span {
+    font-family: 'GmarketSansMedium';
+    font-size: 50px;
+}

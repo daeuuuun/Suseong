@@ -31,7 +31,7 @@ function QuickMenu() {
                     <li>통학버스</li>
                 </ul>
             </div>
-            <img src={topbtn} className={styles.top_btn} alt='TOP버튼' />
+            <img src={topbtn} className={styles.top_btn} alt='TOP버튼' onClick={() => window.scrollTo({ top: 0, behavior: 'smooth'})}/>
         </div>
         <div className={styles.scroll_down} style={{top: `${position}px`}}>
             <img src={scrolldown} alt='스크롤다운' />

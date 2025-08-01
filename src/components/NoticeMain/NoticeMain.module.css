@@ -1,5 +1,6 @@
 .notice_container {
     padding: 150px 0;
+    background-color: #efefef;
 }
 
 .notice {
@@ -11,6 +12,7 @@
 .notice_container .notice .notice_text > p {
     font-family: 'GmarketSansLight';
     font-size: 50px;
+    cursor: pointer;
 }
 
 .notice_container .notice .notice_text > p > span {
@@ -32,6 +34,28 @@
     padding: 0 10px;
 }
 
+.allbtn {
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 110px;
+    height: 35px;
+    background-color: #efefef;
+}
+
+.allbtn:hover {
+    background-color: red;
+}
+
+.allbtn > span {
+    font-family: 'Pretendard-Regular';
+    font-size: 16px;
+    color: red;
+}
+
+.allbtn:hover > span{
+    color: #efefef;
+}
+
 .notice_container .notice .text_list > li:hover {
     color: red;
 }
@@ -50,6 +74,12 @@
     font-size: 18px;
     text-align: center;
     border-top: 1px solid #bcbcbc;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.notice_board > table tr td:nth-child(2):hover {
+    color: red;
 }
 
 .notice_board > table tr:last-child td {
@@ -61,6 +91,13 @@
     padding-left: 300px;
     padding-top: 150px;
     padding-bottom: 235px;
+    position: relative;
+}
+
+.now_content_container {
+    display: flex;
+    position: absolute;
+    left: 600px;
 }
 
 .now_container .now_content {
@@ -73,6 +110,7 @@
     font-family: 'GmarketSansLight';
     padding: 65px 0;
     width: 335px;
+    cursor: pointer;
 }
 
 .now_container .now_content .main_text > span {
@@ -83,6 +121,7 @@
     font-family: 'Pretendard-Regular';
     font-size: 18px;
     padding: 25px 0;
+    cursor: pointer;
 }
 
 .now_container .now_content .date {
@@ -91,14 +130,152 @@
     color: #555555;
     padding-bottom: 25px;
     border-bottom: 1px solid #555555;
+    cursor: pointer;
 }
 
 .now_container .now_content:hover .date {
     border-bottom: 1px solid red;
 }
 
+.now_department {
+    display: flex;
+    padding: 0 300px;
+    flex-direction: column;
+    align-items: end;
+}
+
+.now_department table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.now_department table:last-child {
+    border-bottom: 1px solid #bcbcbc;
+}
+
+.now_department table thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #bcbcbc;
+    cursor: pointer;
+}
+
+.now_department table thead th:first-child {
+    text-align: left;
+    font-size: 50px;
+    font-family: 'GmarketSansLight';
+}
+
+.now_department table thead th:first-child > span {
+    font-family: 'GmarketSansMedium';
+}
+
+.now_department table thead th:last-child {
+    font-family: 'GmarketSansMedium';
+    font-size: 25px;
+    width: 125px;
+    text-align: end;
+    cursor: pointer;
+}
+
 .now_department table tbody {
     display: flex;
-    justify-content: center;
-    align-items: start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-size: 20px;
+    width: 1080px;
+}
+
+.now_department table tbody tr {
+    width: 360px;
+}
+
+.now_department table tbody tr th {
+    vertical-align: top;
+    text-align: left;
+    font-family: 'Pretendard-Regular';
+    width: 90px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.now_department table tbody tr td {
+    font-family: 'Pretendard-Light';
+    vertical-align: top;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.now_department table tbody tr td ul {
+    list-style: none;
+    width: 250px;
+}
+
+.now_department table tbody tr td ul li {
+    width: 300px;
+    padding: 5px 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.now_department table tbody tr td ul li::before {
+    content: "• ";
+}
+
+.now_department table tbody tr td ul li:hover {
+    color: red;
+}
+
+.sns {
+    padding: 180px 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sns .photo_boxs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sns .photo_boxs > img {
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.sns table thead tr th {
+    font-size: 40px;
+    font-family: 'GmarketSansLight';
+    width: 700px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.sns table thead tr th > span {
+    font-family: 'GmarketSansMedium';
+}
+
+.sns table tbody tr td {
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #bcbcbc;
+    align-items: center;
+}
+
+.sns table tbody tr td:first-child {
+    border-top: 1px solid #bcbcbc;
+}
+
+.sns table tbody tr td > img {
+    padding: 10px;
+}
+
+.sns table tbody tr td > span {
+    font-size: 16px;
+    font-family: 'GmarketSansMedium';
+    cursor: pointer;
+}
+
+.sns table tbody tr td:hover > span {
+    color: red;
 }

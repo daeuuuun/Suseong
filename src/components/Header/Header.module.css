@@ -23,6 +23,11 @@ header {
     font-size: 17px;
     font-weight: bold;
     color: #010101;
+    cursor: pointer;
+}
+
+.manu_bar li:hover {
+    color: red;
 }
 
 .manu_bar li:nth-child(6) {
@@ -33,7 +38,14 @@ header {
     color: #404040;
 }
 
+.manu_bar li:nth-child(6):hover {
+    background-color: red;
+    color: #dfdfdf;
+    border: 1px solid red;
+}
+
 .manu_bar li:nth-child(7) {
     width: 36px;
     height: 20px;
 }
+

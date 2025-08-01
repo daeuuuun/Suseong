@@ -26,6 +26,10 @@
     color: #fff;
 }
 
+.content_container .content_box:nth-child(3) {
+    background-color:rgba(255, 255, 255, 0.2);
+}
+
 .content_container .content_null_box {
     width: 260px;
     height: 230px;
@@ -39,12 +43,14 @@
     font-family: 'GmarketSansBold';
     font-size: 28px;
     padding-bottom: 30px;
+    cursor: pointer;
 }
 
 .content_container .content_box .middle_text {
     font-family: 'IBMPlexSansKR-Regular';
     font-size: 90px;
     font-weight: 900;
+    cursor: pointer;
 }
 
 .content_container .content_box .middle_text > span {
@@ -55,17 +61,20 @@
 .content_container .content_box .bottom_text {
     font-family: 'GmarketSansLight';
     font-size: 17px;
+    cursor: pointer;
 }
 
 .content_container .content_box .sub_text {
     font-family: 'GmarketSansMedium';
     font-size: 17px;
+    cursor: pointer;
 }
 
 .content_container .content_box .second_text {
     font-family: 'IBMPlexSansKR-Regular';
     font-size: 48px;
     font-weight: 900;
+    cursor: pointer;
 }
 
 .content_container .content_box .second_text > span {
@@ -78,6 +87,7 @@
     font-size: 50px;
     margin-left: -20px;
     margin-top: 60px;
+    cursor: pointer;
 }
 
 .content_container .content_null_box .overview_text > span {

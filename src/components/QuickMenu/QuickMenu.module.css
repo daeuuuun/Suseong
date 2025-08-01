@@ -26,6 +26,7 @@
     font-family: 'GmarketSansMedium';
     font-size: 16px;
     padding: 30px 0 10px 0;
+    cursor: pointer;
 }
 
 .quick_container > ul {
@@ -36,10 +37,15 @@
     font-family: 'GmarketSansLight';
     font-size: 16px;
     padding: 10px 0;
+    cursor: pointer;
 }
 
 .quick_container > ul > li:nth-child(6) {
     padding-bottom: 40px;
+}
+
+.quick_container > ul > li:hover {
+    color: red;
 }
 
 .container .top_btn {
@@ -56,5 +62,5 @@
 }
 
 .scroll_down > img {
-    margin-top: 400px;
+    margin-top: 150px;
 }
